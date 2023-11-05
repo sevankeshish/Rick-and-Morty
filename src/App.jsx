@@ -1,14 +1,17 @@
-import "./App.css";
+import { allCharacters } from "../data/data";
+
+import Navbar from "./components/Navbar";
 import CharacterList from "./components/CharacterList";
 import CharecterDetail from "./components/CHarecterDetail";
-import Navbar from "./components/Navbar";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <Navbar />
       <div className="main">
-        <CharacterList />
+        <CharacterList characters={allCharacters} />
         <CharecterDetail />
       </div>
     </div>

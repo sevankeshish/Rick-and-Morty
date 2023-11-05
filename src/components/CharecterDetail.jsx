@@ -1,4 +1,4 @@
-import React from "react";
+import {} from "../../data/data";
 
 function CharecterDetail() {
   return <div>CharecterDetail</div>;
